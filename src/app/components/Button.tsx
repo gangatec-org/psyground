@@ -23,9 +23,9 @@ export default function Button({ className, children, ...props }: TLink) {
     <Link
       target="_blank"
       {...props}
-      className="h-10 max-w-[350px] w-full rounded-3xl border-2 border-primary uppercase  bg-primary text-white text-xl flex items-center justify-center hover:bg-transparent transition-all relative overflow-hidden focus:bg-transparent"
+      className="h-10 max-w-[350px] w-full rounded-3xl border-2 border-primary uppercase  bg-primary text-white text-xl flex items-center justify-center hover:bg-transparent transition-all relative overflow-hidden focus:bg-transparent group"
     >
-      <div className="w-[350px] h-[20px] absolute top-[-135px] right-0 z-1 opacity-40">
+      <div className="w-[350px] h-[20px] absolute top-[-135px] right-0 z-1 opacity-40 hidden group-hover:block group-focus:block">
         <Lottie animationData={animationData} loop lottieRef={ref} />
       </div>
 
