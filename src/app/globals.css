@@ -3,19 +3,14 @@
 :root {
   --background: #ffffff;
   --foreground: #171717;
-  --primary: #f57404;
+  --primary: #f08c35;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-sans: var(--font-bone-lock);
   --color-primary: var(--primary);
-}
-
-bg-image {
-  @apply bg-[url('../../public/background.png')] bg-center;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -28,5 +23,8 @@ bg-image {
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  @apply font-sans;
 }
