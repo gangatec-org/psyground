@@ -18,7 +18,7 @@ type TLink = {
 export default function Home() {
   const links: TLink[] = [
     {
-      path: "wa.me/557491234714?text=Ol%C3%A1%21%20Gostaria%20de%20garantir%20meu%20ingresso%20para%20o%20Omeyocan",
+      path: "https://wa.me/557491234714?text=Ol%C3%A1%21%20Gostaria%20de%20garantir%20meu%20ingresso%20para%20o%20Omeyocan",
       title: "Adquirir Ingresso",
       Icon: FaWhatsapp,
     },
