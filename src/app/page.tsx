@@ -37,6 +37,11 @@ export default function Home() {
       title: "Instagram",
       Icon: FaInstagram,
     },
+    {
+      path: "https://loja.infinitepay.io/coletivopsyground/",
+      title: "Loja Virtual",
+      Icon: FaStore,
+    },
   ]
 
   return (
