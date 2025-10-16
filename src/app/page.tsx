@@ -5,6 +5,7 @@ import {
   FaSoundcloud,
   FaWhatsapp,
   FaYoutube,
+  FaStore
 } from "react-icons/fa"
 import Button from "../components/Button"
 import Logo from "../components/Logo"
